@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "conscience-system"
-version = "0.2.1"
+version = "0.2.2"
 description = "Django 기반 백엔드 시스템 자동 구성 도구"
 readme = "README.md"
 authors = [
@@ -52,6 +52,7 @@ conscience-system = "conscience_service.gui:main"
 
 [tool.setuptools]
 include-package-data = true
+packages = ["conscience_service"]
 
 [project.optional-dependencies]
 dev = [
