@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "conscience-system"
-version = "0.1.0"
+version = "0.2.1"
 description = "Django 기반 백엔드 시스템 자동 구성 도구"
 readme = "README.md"
 authors = [
@@ -37,7 +37,7 @@ dependencies = [
     "python-decouple>=3.8",
     "psycopg-binary>=3.2.3",
     "whitenoise>=6.8.2",
-    "rav>=0.1.0",
+    "rav>=0.0.9",
 ]
 
 [project.urls]
