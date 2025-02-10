@@ -1,0 +1,8 @@
+recursive-include conscience_service/src *
+include conscience_service/src/requirements.txt
+include conscience_service/src/manage.py
+recursive-include conscience_service/src/*/migrations *
+recursive-include conscience_service/src/*/templates *
+recursive-include conscience_service/src/*/static *
+global-exclude *.pyc
+global-exclude __pycache__/*

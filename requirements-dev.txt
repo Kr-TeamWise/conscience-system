@@ -1,0 +1,5 @@
+setuptools>=68.0.0
+wheel>=0.40.0
+PyQt6>=6.4.0
+build>=1.0.0
+twine>=4.0.0 
